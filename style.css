@@ -19,15 +19,22 @@ h2 {
 }
 
 h3 {
+  font-size: 27px;
+}
+
+h4 {
   font-size: 24px;
 }
 
-h4 {
+h5 {
   font-size: 20px;
 }
 
-h4 {
-  font-size: 16px;
+/* button primary */
+.btn-primary {
+  color: #fff;
+  background-color: #272861;
+  border-color: #272861;
 }
 
 .header {
@@ -83,4 +90,188 @@ h4 {
 
 .icon-with-text i {
   margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
+.right-form {
+  padding: 25px;
+  background-color: #ebecf1;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Investment */
+.investment h1,
+.investment h4 {
+  color: #272861 !important;
+}
+
+.image-with-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+  align-items: center;
+}
+
+.image-with-text img {
+  margin-right: 10px;
+}
+
+/* management */
+.management {
+  background-color: #272861;
+}
+
+.management img {
+  border-radius: 15px;
+}
+
+.managment-name {
+  margin-top: 10px;
+  color: #e8bd6a;
+}
+
+.btn-anime {
+  background-color: #e8bd6a;
+}
+
+/* kisna */
+
+.kisna-section {
+  background-color: #272861;
+}
+
+.kisna-section img {
+  border-radius: 15px;
+}
+
+/* sparkling-section */
+.sparkling-section {
+  background-color: #c1b2d5;
+}
+
+.sparkling-section h1 {
+  color: #272861;
+}
+
+/*  */
+
+.future-family-section {
+  background-color: #272861 !important;
+}
+
+.future-family-section .store-text {
+  color: #e8bd6a;
+  font-size: 74px;
+}
+
+
+
+
+.citystatetable {
+  height: 200px;
+  overflow: auto;
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+
+/* marketing-section */
+
+.marketing-section{
+  background-color: #fff;
+}
+
+.marketing-section img{
+  border-radius: 15px;;
+}
+
+.marketing-section h1{
+  color: #272861!important;
+}
+
+
+/* media-cover-section */
+.media-cover-section{
+  background-color: #c1b2d5;
+}
+
+.media-cover-section h1{
+  color: #272861;
+}
+
+
+.media-cover-section img{
+  border-radius: 100%;
+}
+
+
+
+/* partner-form-section */
+.partner-form-section{
+  background-image: url(https://www.kisnafranchise.com/enquiry/assets/images/contactbg11.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 40px 0;
+}
+
+
+.partner {
+  max-width: 500px;
+  margin-left: auto;
+  position: relative;
+  top: 100px;
+}
+.partner-form{
+  padding: 25px;
+  background-color: #ebecf1;
+  border-radius: 15px;
+  text-align: center;
+  
+}
+
+
+/* main-footer */
+.main-footer{
+  background-color: #272861!important;
+}
+
+
+.icon-with-text2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  align-items: center;
+}
+
+.icon-with-text2 i {
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
+
+.bottom-footer {
+  border-top: 1px solid #2f306f;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.social-ul {
+  display: flex;
+}
+
+.social-ul li {
+  display: block;
+  margin-right: 10px;
+}
+
+
+.social-ul li a {
+  width: 35px;
+  display: block;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px 0;
+  background-color: #c1b3d4;
 }
